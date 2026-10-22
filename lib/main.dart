@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'theme/app_colors.dart';
 import 'widgets/soft_button.dart';
+import 'pages/quiz_page.dart';
 
 void main() => runApp(const KuisApp());
 
@@ -22,8 +23,38 @@ class KuisApp extends StatelessWidget {
   }
 }
 
-class WelcomePage extends StatelessWidget {
+class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});
+
+  @override
+  State<WelcomePage> createState() => _WelcomePageState();
+}
+
+class _WelcomePageState extends State<WelcomePage> {
+  final TextEditingController _nameController = TextEditingController();
+
+  @override
+  void dispose() {
+    _nameController.dispose();
+    super.dispose();
+  }
+
+  void _startQuiz() {
+    final name = _nameController.text.trim();
+    if (name.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Nama tidak boleh kosong!')),
+      );
+      return;
+    }
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => QuizPage(userName: name),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,6 +96,7 @@ class WelcomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 36),
                 TextField(
+                  controller: _nameController,
                   decoration: InputDecoration(
                     labelText: 'Nama kamu',
                     filled: true,
@@ -89,7 +121,7 @@ class WelcomePage extends StatelessWidget {
                 const SizedBox(height: 16),
                 SoftButton(
                   label: 'Mulai Kuis',
-                  onPressed: () {},
+                  onPressed: _startQuiz,
                 ),
                 const SizedBox(height: 12),
                 const Text(
