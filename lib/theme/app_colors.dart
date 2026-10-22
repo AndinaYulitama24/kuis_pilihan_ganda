@@ -8,4 +8,17 @@ class AppColors {
   static const bg = Color(0xFFFFFBF6);
   static const textDark = Color(0xFF4A3F3A);
   static const textLight = Color(0xFF9C8E85);
+
+  static ThemeData get theme {
+    return ThemeData(
+      useMaterial3: true,
+      scaffoldBackgroundColor: bg,
+      colorScheme: ColorScheme.fromSeed(seedColor: peachDark),
+      fontFamily: 'Poppins',
+      textTheme: const TextTheme(
+        bodyLarge: TextStyle(color: textDark),
+        bodyMedium: TextStyle(color: textDark),
+      ),
+    );
+  }
 }
