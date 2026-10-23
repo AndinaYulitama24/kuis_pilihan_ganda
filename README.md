@@ -1,12 +1,12 @@
 # Aplikasi Kuis (UTS Pemrograman Mobile)
 
 ## Identitas Mahasiswa
-* **Nama:** [Nama Lengkap Anda]
-* **NIM:** [NIM Anda]
-* **Lab:** [Lab Anda, contoh: Lab 3 / PM 1]
+* **Nama:** Andina Yulitama Lubis
+* **NIM:** 241401025
+* **Lab:** Lab PM 1
 
 ## Informasi Aplikasi
-* **Nama Aplikasi:** Kuis Seru
+* **Nama Aplikasi:** Kuis 
 * **Deskripsi Singkat:** Aplikasi kuis pilihan ganda interaktif yang memungkinkan pengguna menguji pengetahuan berdasarkan kategori tertentu, dengan batas waktu, penjelasan jawaban, dan riwayat skor.
 * **Fitur-fitur Utama:**
   1. Input nama pengguna dan pemilihan 3 kategori (Umum, Teknologi, Indonesia).
@@ -19,25 +19,6 @@
 ## Dokumentasi
 ### Aset & Kredit
 * **Font:** [Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)
-* **Gambar/Ilustrasi:** [Sebutkan sumber gambar, misal: Freepik / Flaticon / Buatan Sendiri]
-* **State Management:** [Provider Package](https://pub.dev/packages/provider)
-* **Local Storage:** [Shared Preferences Package](https://pub.dev/packages/shared_preferences)
-
-### Screenshot Aplikasi
-*(Masukkan gambar screenshot aplikasi Anda di sini. Contoh format:)*
-| Home Screen (Light) | Home Screen (Dark) | Quiz Screen |
-| :---: | :---: | :---: |
-| ![Home](link_gambar) | ![Home Dark](link_gambar) | ![Quiz](link_gambar) |
-
-| Result Screen | History Screen | Detail Kesalahan |
-| :---: | :---: | :---: |
-| ![Result](link_gambar) | ![History](link_gambar) | ![Detail](link_gambar) |
-
-* **Link Mockup/Prototype:** [Masukkan link Figma jika ada]
+* **Gambar/Ilustrasi:** [Dari gambar Google]
+### Screenshot Aplikasi :
 * **Link Video Presentasi:** [Masukkan link Google Drive video Anda di sini]
-
-## Cara Menjalankan Proyek
-1. Clone repository ini: `git clone [link-repo-anda]`
-2. Buka di Android Studio / VS Code.
-3. Jalankan perintah `flutter pub get` untuk mengunduh dependencies.
-4. Jalankan aplikasi dengan `flutter run`.
