@@ -16,9 +16,9 @@
   5. **Dual-Theme:** Mendukung mode terang (Light Mode) dan gelap (Dark Mode).
   6. **Responsive Design:** Tampilan UI yang adaptif (tidak overflow) saat dijalankan di HP (portrait/landscape), Tablet, maupun Web.
 
-## Dokumentasi
+
 ### Aset & Kredit
 * **Font:** [Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)
 * **Gambar/Ilustrasi:** [Dari gambar Google]
-### Screenshot Aplikasi : [https://docs.google.com/document/d/1Ml2fIWiDBk3AADvEswEGD5M4WDm5K5-A1xKcmy4NZmg/edit?usp=sharing ](https://drive.google.com/drive/folders/1UpTtE-tWG-0IU77NO2pNyKgd2WpKnNxz?hl=ID)
+** Screenshot Aplikasi : **(https://drive.google.com/drive/folders/1UpTtE-tWG-0IU77NO2pNyKgd2WpKnNxz?hl=ID)
 * **Link Video Presentasi:** https://drive.google.com/drive/folders/1SuLJmny_jDsmSBXGysoqwYGUpAzVED5q?hl=ID 
