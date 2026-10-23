@@ -20,5 +20,5 @@
 ### Aset & Kredit
 * **Font:** [Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)
 * **Gambar/Ilustrasi:** [Dari gambar Google]
-### Screenshot Aplikasi :
+### Screenshot Aplikasi : https://docs.google.com/document/d/1Ml2fIWiDBk3AADvEswEGD5M4WDm5K5-A1xKcmy4NZmg/edit?usp=sharing 
 * **Link Video Presentasi:** [Masukkan link Google Drive video Anda di sini]
